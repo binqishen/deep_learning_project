@@ -1,5 +1,5 @@
 # Deep Learning Project: The Fitting Room in Your Dream
-Team Name: 30%
+
 Team Members: Ming Zhang, Binqi Shen, Hanyu Cai, Junpeng Jiang, Xuan Yu, Chelsea Zhang
 
 
