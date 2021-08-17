@@ -17,7 +17,7 @@ Since we are trying to build a virtual fitting room, having various styles of cl
 
 Most of the images we got from Pinterest have the front look of the women wearing the dress. However, we do expect to see certain noises within the image sets, as the absolute shape and positioning of the outfit within each image can be largely different. As most of the pictures are clear and recognizable, we expect the model to correctly identify clothes from the images. Below are some examples of our dataset: 
 
-<img width=200 src = 'PinDown__dress/abcfashion.net Andrea-and-Leo-A0890-Dress-6-Light-Silver34b85d2dcae5c3ca24c7b5cda85144b7.jpg'> &nbsp; &nbsp; &nbsp;  &nbsp; <img width=200 src = 'PinDown__dress/shop.songofstyle.com Song-of-Style-Ember-Mini-Dress-in-Metallic-Ske4e793f927343a233a89728ca8ac5cf4.png'> &nbsp; &nbsp; &nbsp;  &nbsp; <img width=200 src = 'PinDown__dress/vogue.it Valentino-News-Collections-Fashion-Shows-Fashc623e70972dc97b9c0ad795c276d0d19.jpg'> &nbsp; &nbsp; &nbsp;  &nbsp; <img width=200 src = 'PinDown__dress/twitter.com eleanor-on-Twitter723d3d467872ac98584c73ceea72df5f.jpg'> 
+<img width=200 src = 'PinDown__dress/abcfashion.net Andrea-and-Leo-A0890-Dress-6-Light-Silver34b85d2dcae5c3ca24c7b5cda85144b7.jpg'>  &nbsp;  &nbsp; <img width=200 src = 'PinDown__dress/shop.songofstyle.com Song-of-Style-Ember-Mini-Dress-in-Metallic-Ske4e793f927343a233a89728ca8ac5cf4.png'> &nbsp;  &nbsp; <img width=200 src = 'PinDown__dress/vogue.it Valentino-News-Collections-Fashion-Shows-Fashc623e70972dc97b9c0ad795c276d0d19.jpg'> &nbsp;  &nbsp; <img width=200 src = 'PinDown__dress/twitter.com eleanor-on-Twitter723d3d467872ac98584c73ceea72df5f.jpg'> 
                    
 Since our dataset will be mainly used in semantic segmentation, there is no need for us to reshape or crop our images like what we usually do in the traditional classification problem. The main model we will use performs squeezing and augmenting of an image, but it is quite different from adding randomness to our model. We will explain it in detail in the following sections. 
 	                           
@@ -59,7 +59,7 @@ The third step in our technical approach is design integration. From step 2, we 
 
 The pictures below are the original images and corresponding resulting images of our model. The ladies are trying on dresses with their own designs which were generated in the previous steps. 
    
-<img title='Input' width = 200, src = 'tests_results/1test/1dress.jpg'> &nbsp; &nbsp; &nbsp; &nbsp; <img title='Input' width = 200, src = 'tests_results/1test/1output.jpg'>  &nbsp; &nbsp; &nbsp; &nbsp; <img title='Input' width = 200, src = 'tests_results/3test/3dress.jpg'> &nbsp; &nbsp; &nbsp; &nbsp; <img title='Input' width = 200, src = 'tests_results/3test/3output.jpg'>
+<img title='Input' width = 200, src = 'tests_results/1test/1dress.jpg'> &nbsp;  &nbsp; <img title='Input' width = 200, src = 'tests_results/1test/1output.jpg'>  &nbsp;  &nbsp; <img title='Input' width = 200, src = 'tests_results/3test/3dress.jpg'> &nbsp; &nbsp; <img title='Input' width = 200, src = 'tests_results/3test/3output.jpg'>
 
 
 ## Learning from MVP and Make Improvements
